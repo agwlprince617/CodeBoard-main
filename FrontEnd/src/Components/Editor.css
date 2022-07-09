@@ -1,0 +1,195 @@
+.CodeMirror {
+  border-radius: 5px;
+  resize: vertical;
+}
+.Dropdown-control {
+  cursor: pointer !important;
+  padding-bottom: 2px !important;
+  height: 35.5px;
+  text-align: start;
+  font-size: 15px;
+  width: auto;
+  color: white !important;
+  box-shadow: none !important;
+  border-radius: 10px !important;
+  background-color: transparent !important;
+}
+.Dropdown-option {
+  color: white !important;
+}
+.Dropdown-option.is-selected{
+  background: #0f2627 !important;
+}
+.Dropdown-option:hover {
+  background: #0f2627 !important;
+  background-image: linear-gradient(180deg, #0f2526, #29797c) !important;
+  border-radius: 10px;
+}
+.Console {
+  width: min-content;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  border: 1px solid grey;
+  cursor: pointer;
+  text-align: start;
+  color: #6c7f95 !important;
+  align-self: baseline !important;
+  text-transform: none !important;
+}
+.Dropdown-menu {
+  width: auto;
+  border-radius: 10px;
+  background-image: linear-gradient(180deg, #0f2526, #29797c) !important;
+}
+
+.console {
+  position: relative;
+  height: 100px;
+  border: 1px solid purple;
+  background-color: white;
+}
+.consoleplusarea {
+  display: flex;
+  flex-direction: column;
+}
+.testareaoutput {
+  background-color: #0a0e14;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 100%;
+  height: 160px;
+  resize: none;
+  border: 1px solid #9eb3cb;
+}
+.mod {
+  z-index: 10;
+  margin-top: -726px;
+}
+.input__textarea:focus {
+  outline: none !important;
+  border-color: rgba(81, 203, 238, 1);
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+.langaugeselector {
+  display: flex;
+  flex-direction: row;
+  /* border:1px solid #6c7f95; */
+  width: fit-content;
+  height: fit-content;
+  /* justify-content: space-between; */
+}
+.input__textarea {
+  margin-top: 1px;
+  align-self: center;
+  height: 120px;
+  width: 98%;
+  resize: none;
+}
+
+.output__textarea {
+  margin-top: 1px;
+  align-self: center;
+  height: 120px;
+  width: 98%;
+  resize: none;
+}
+
+
+.testout {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  color: white;
+}
+.Dropdown-root {
+  margin: 2px;
+  margin-left: 4px;
+}
+/* .CodeMirror-scroll {
+  overflow-y: hidden;
+  overflow-x: auto;
+} */
+.submit {
+  width: auto;
+  height: 30px;
+  margin-right: 10px !important;
+  border: 1px solid gray !important;
+  background-color: RGB(69, 90, 100) !important;
+  cursor: pointer;
+  text-align: start;
+  color: white !important;
+  display: flex;
+  text-transform: none !important;
+  margin-top: 5px !important; 
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+  background-image: linear-gradient(to right, #0f2526, #29797c);
+  border-radius: 5px;
+  margin-bottom: 1px;
+}
+.settings {
+  display: flex;
+  height: 20px;
+  width: 20px;
+  margin-right: 15px !important;
+  cursor: pointer;
+  align-self: center;
+}
+
+.fontsize {
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+}
+.textdivide {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 60px;
+}
+.size {
+  width: 170px;
+  height: 35px;
+}
+.head {
+  width: 300px;
+  height: 30px;
+}
+.desc {
+  width: 300px;
+  height: 30px;
+  font-size: small;
+  color: #6c7f95;
+}
+.modal-content {
+  border-radius: 25px;
+}
+.Code__run{
+  height: 36.5px
+}
+.testarea{
+  width: 70px;
+  border-right: 1px solid white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.output{
+  width: 120px;
+  margin-left: 10px;
+  cursor: pointer; 
+}
+.output:hover{
+  opacity: 0.5;
+}
+.testarea:hover{
+  opacity: 0.5;
+}
